@@ -1,0 +1,40 @@
+[
+  {
+    "id": 1,
+    "name": "standart",
+    "coordinates": {
+      "x": 1,
+      "y": 1
+    },
+    "area": 1.0,
+    "numberOfRooms": 1,
+    "furniture": true,
+    "timeToMetroOnFoot": 1,
+    "transport": "NONE",
+    "house": {
+      "name": "House",
+      "year": 1,
+      "numberOfLifts": 1
+    },
+    "date": "Apr 29, 2023, 4:17:56 PM"
+  },
+  {
+    "id": 2,
+    "name": "dsa",
+    "coordinates": {
+      "x": 2,
+      "y": 2
+    },
+    "area": 1.0,
+    "numberOfRooms": 2,
+    "furniture": true,
+    "timeToMetroOnFoot": 312,
+    "transport": "NONE",
+    "house": {
+      "name": "312",
+      "year": 213,
+      "numberOfLifts": 12
+    },
+    "date": "Apr 29, 2023, 4:23:33 PM"
+  }
+]

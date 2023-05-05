@@ -1,4 +1,4 @@
-package attacks;
+eepackage attacks;
 import ru.ifmo.se.pokemon.*;
 
 public class Bulldoze extends StatusMove{
