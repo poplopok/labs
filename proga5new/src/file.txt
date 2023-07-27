@@ -1,0 +1,10 @@
+qwd
+asd
+sdas assa
+d
+add_if_max 11212211
+ads
+21
+execute_script file1.txt
+errere
+

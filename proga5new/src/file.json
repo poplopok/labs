@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "name": "1",
+    "coordinates": {
+      "x": 1,
+      "y": 2
+    },
+    "area": 2.0,
+    "numberOfRooms": 3,
+    "furniture": true,
+    "timeToMetroOnFoot": 21,
+    "transport": "NONE",
+    "house": {
+      "name": "21",
+      "year": 21,
+      "numberOfFloors": 213
+    },
+    "date": "Jul 27, 2023, 10:12:21 AM"
+  },
+  {
+    "id": 2,
+    "name": "112",
+    "coordinates": {
+      "x": 21,
+      "y": 21
+    },
+    "area": 21.0,
+    "numberOfRooms": 21,
+    "furniture": true,
+    "timeToMetroOnFoot": 23,
+    "transport": "NONE",
+    "house": {
+      "name": "3",
+      "year": 32,
+      "numberOfFloors": 2332
+    },
+    "date": "Jul 27, 2023, 12:51:23 PM"
+  }
+]
+
+
+
