@@ -4,13 +4,13 @@ const {
     insertPVK,
     saveMarks,
     savePulse
-} = require("./dbProperties.js");
+} = require("./db.js");
 
 const {
     frontend_id,
     sysAdmin_id,
     dataScientist_id
-} = require("./dataHolder.js");
+} = require("./data.js");
 
 let {
     user_id,
@@ -36,23 +36,23 @@ let {
     tempSkills,
     tempProfession,
     predictedSkills
-} = require("./dataHolder.js");
+} = require("./data.js");
 
 const {
     runModelTS,
     startTS,
     createModelTS
-} = require("./tests_to_skills")
+} = require("./tests")
 
 const {
     runModelSP,
     startSP,
     createModelSP
-} = require("./skills_to_profession")
+} = require("./skills")
 
 const {
     pagesMap
-} = require("./pagesMap.js");
+} = require("./pages.js");
 
 // server initialization
 const port = 9000;

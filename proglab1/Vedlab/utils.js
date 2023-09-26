@@ -1,4 +1,4 @@
-const {runQuery} = require("./dbProperties");
+const {runQuery} = require("./db");
 let lst = []
 let myRes = {
     'Самостоятельность': 95,
