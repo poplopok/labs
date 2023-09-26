@@ -1,0 +1,241 @@
+body {
+    margin: 0px;
+    background-color: #f2ddc6;
+    height: 100%;
+    width: 100%;
+}
+.top {
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    padding-left: 10px;
+    top: 0;
+    background-color: black;
+    filter: invert(15%);
+    width: 100%;
+    height: 52px;
+    text-align: right;
+    padding-top: 6px;
+    z-index: 1;
+}
+.icon_top {
+    border-radius:15px;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    padding-right: 7px;
+    opacity: 1;
+    transition: opacity 0.35s ease;
+}
+.icon_top:hover{
+    opacity: 0.75;
+}
+a, u {
+    text-decoration: none;
+}
+
+.choice {
+    position: absolute;
+    height: 100%;
+    /*background: white;*/
+    width: 100%;
+    background-size: 1450px, 1200px;
+    background-image:url('https://mtsz.tatarstan.ru/file/news/33_n2033423_big.jpg');
+}
+.title_text {
+    height: 55px;
+    padding-left: 40px;
+    color: #b94d4d;
+    font-size: 44px;
+    line-height: 1.25;
+    font-weight: 700;
+}
+
+.service-block_left {
+    text-align: left;
+}
+.content {
+    flex: 1 1 auto;
+    padding-right: 32px;
+}
+.service-block {
+    font-size: 16px;
+    line-height: 24px;
+}
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+.box {
+    display: block;
+    position: relative;
+    margin: 20px;
+    width: 320px;
+    height: 420px;
+    z-index: 1;
+}
+.box::before {
+    content: "";
+    background: linear-gradient(to bottom, black, white);
+    background-size: cover;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    border-radius: 20px;
+    opacity: 0.3;
+}
+.text_box {
+    margin-left: 20px;
+    width: 280px;
+    height: 60px;
+}
+.box_title {
+    color: white;
+    font-size: 20pt;
+    font-family: 'Montserrat',Arial,sans-serif;
+}
+.box_text {
+    margin-left: 20px;
+    width: 280px;
+    text-align: justify;
+    padding-top: 130px;
+    font-size: 12pt;
+    font-family: 'Montserrat',Arial,sans-serif;
+    position: relative;
+    color: white;
+}
+.box:hover {
+    background-image:url('https://static.tildacdn.com/tild3166-3564-4335-b831-333134626666/4_card_hover.svg');
+    border-radius: 20px;
+}
+
+.icon {
+    height: 100px;
+}
+.icon_1 {
+    padding-top: 10px;
+    width: 110px;
+}
+.icon_2 {
+    padding-top: 5px;
+    padding-left: 10px;
+    width: 76px;
+    height: 66px;
+}
+.icon_3 {
+    padding-top: 10px;
+    width: 110px;
+}
+.service-box-wrap {
+    align-content: center;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0 -32px -32px 0;
+}
+.service-box {
+    margin-right: 10%;
+    margin-top: 93px;
+    margin-left: 10%;
+    border-radius: 8px;
+    border: solid #4e3dd1;
+    align-content: center;
+    align-items: center;
+    box-shadow: 0 8px 16px 10px rgba(114, 114, 114, 0.2);
+    background-color: #ffffff;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 324px;
+    min-height: 320px;
+    max-height: 270px;
+    flex: 0 1 calc(100% / 3 - 32px);
+    padding: 0 16px 16px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.topik{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #4e3dd1;
+    height: 50px;
+    background: #262626;
+}
+
+.section-box {
+    padding: 90px 0 0 32px;
+    font-size: 18px;
+    line-height: 28px;
+    height: 70%;
+}
+.service-box__h {
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-variant-alternates: normal;
+    font-kerning: auto;
+    font-optical-sizing: auto;
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+    font-weight: bold;
+    font-stretch: normal;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: RobotoBold, Arial, sans-serif;
+}
+.btn-violet-nd {
+    background: #4e3dd1;
+    color: #fff;
+    border-radius: 8px;
+    padding: 14px 13px;
+    text-align: center;
+    display: block;
+    min-height: 10px;
+    height: auto;
+    max-width: 284px;
+    width: 100%;
+    font: 16px/16px RobotoMedium, Arial, sans-serif;
+    cursor: pointer;
+    box-shadow: none;
+    border: none;
+    -moz-transition: background 0.2s ease-in-out;
+    -o-transition: background 0.1s ease-in-out;
+    -webkit-transition: background 0.2s ease-in-out;
+    transition: background 0.2s ease-in-out;
+}
+.violet-link-nd {
+    font: 18px/24px RobotoMedium, Arial, sans-serif;
+    color: #4e3dd1;
+    cursor: pointer;
+    -moz-transition: opacity 0.2s ease-in-out;
+    -o-transition: opacity 0.1s ease-in-out;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+}
+.service-box__btn {
+    margin: auto 0 0;
+    padding: 24px 0 0;
+    text-align: center;
+}
+.rofl{
+    color: #4e3dd1;
+    margin-right: 45%;
+
+    font-size: 15px;
+    font-family: 'Rubik',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 1000;
+    border-width: 1px;
+    border-radius: 30px;
+    background-position: center center;
+    border-color: transparent;
+}
+.btn-violet-nd:hover {
+    background: rgba(78, 61, 209, .85);
+}

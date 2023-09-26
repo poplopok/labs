@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/login.css">
+    <title>Document</title>
+</head>
+<body>
+<a href="./" class="topik" style="margin-bottom:82px ">LABA</a>
+<section>
+    <div class="service-box-wrap">
+        <div class="service-box-reg">
+            <form action="/registration" method="post">
+                <h2 style="color: #080808 ;font-size: 23px; padding: 10px;">Register</h2>
+                <div class="inputbox">
+                    <input style="color: #080808;padding: 0" type="text" name="email" required>
+                    <label style="color: #080808">E-mail</label>
+                </div>
+                <div class="inputbox">
+                    <input style="color: #080808;padding: 0" type="text" id="login" name="name" required>
+                    <label style="color: #080808">Name</label>
+                </div>
+                <div class="inputbox">
+                    <input style="color: #080808;padding: 0" type="password" name="password" required>
+                    <label style="color: #080808" >Password</label>
+                </div>
+                <button style="border: #4e3dd1 solid" type="submit">Register</button>
+                <div class="register">
+                    <p style="color: #080808">Have an account? <a style="color: #8983b2" href="/login">Log in</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+<script src="/public/libs/CookieManager.js"></script>
+</body>
+</html>

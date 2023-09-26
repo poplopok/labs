@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/style_lab1.css">
+    <title>Document</title>
+</head>
+<body>
+
+<div class="bg_img">
+    <div class="top">
+        <a href="/lab1">
+            <img class="icon_back" src="public/img/back.png">
+        </a>
+        <a href="/login">
+            <img class="icon_menu" src="public/img/menu.png">
+        </a>
+    </div>
+    <div class="choice">
+        <form method="post" action="/mark">
+            <div style="width: 640px;
+height: 450px;
+display: block;
+position: relative;
+z-index: 1;
+margin-top: 111px;
+margin-left: 28%;
+border: #4e3dd1 solid;
+border-radius: 11px;">
+                <p style="margin: 11px;
+font: 22px/22px RobotoBold, Arial, sans-serif;
+
+">Этап оценки</p>
+                <p style="margin-left:8px;font: 16px/22px RobotoBold, Arial, sans-serif;">Оцените каждый навык от 1 - 10 включительно.</p>
+                <div class="choice_pvk">
+                    <table class="table_1">
+                        <tr style="height: 10px">
+                            <td>№</td>
+                            <td>Профессиональное качество</td>
+                        </tr>
+                        <% for(let i=0; i < lst.length; i++) { %>
+                            <tr>
+                                <td><%= (i+1) %></td>
+                                <td class="td_1"><%= lst[i][0] %></td>
+                            </tr>
+                        <% } %>
+                    </table>
+                    <div class="input_pvk">
+                        <div class="inputbox">
+                            <% for(let i=0; i < lst.length; i++) { %>
+                            <label style="height: 10px;color: #080808">
+                                <input style="color: #080808;border: #8983b2 solid;border-radius: 10px;margin-bottom: 3px;" type="number" max="10" min="1" name="<%=prof%><%=pvk[i]%>" required>
+                            </label>
+                            <% } %>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="list_button">
+                <button class="sent" onclick="">Отправить</button>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
